@@ -117,7 +117,7 @@ export default function App() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-white px-4 py-24 dark:bg-gray-900">
-      <div className="absolute inset-0 size-full">
+      {/* <div className="absolute inset-0 size-full">
         <div className="relative h-full w-full select-none">
           <img
             className="absolute right-0 min-w-dvh dark:hidden"
@@ -130,7 +130,7 @@ export default function App() {
             src="/pattern-dark.svg"
           />
         </div>
-      </div>
+      </div> */}
       <div className="absolute top-4 right-4">
         <DarkThemeToggle />
       </div>
