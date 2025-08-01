@@ -1,5 +1,6 @@
 import { DarkThemeToggle } from "flowbite-react";
 import { AllRoutes } from "../routes/AllRoutes";
+import "./App.css";
 
 export default function App() {
   // const CARDS = [

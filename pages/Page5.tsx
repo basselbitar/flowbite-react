@@ -17,11 +17,13 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 
+import { Heading } from "../components/Heading";
+
 export const Page5 = () => {
   return (
     <>
       <div className="mb-12 text-5xl dark:text-white">Page 5 - Footers</div>
-      <h1 className="mb-4 text-4xl dark:text-white">Default Footer</h1>{" "}
+      <Heading message="Default Footer" />
       <Footer container>
         <FooterCopyright href="#" by="Flowbite™" year={2022} />
         <FooterLinkGroup>
@@ -32,7 +34,7 @@ export const Page5 = () => {
         </FooterLinkGroup>
       </Footer>
       <HR />
-      <h1 className="mb-4 text-4xl dark:text-white">Footer with Logo</h1>
+      <Heading message="Footer with Logo" />
       <Footer container>
         <div className="w-full text-center">
           <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
@@ -54,7 +56,7 @@ export const Page5 = () => {
         </div>
       </Footer>
       <HR />
-      <h1 className="mb-4 text-4xl dark:text-white">Social Media Icons</h1>
+      <Heading message="Social Media Icons" />
       <Footer container>
         <div className="w-full">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
@@ -103,8 +105,9 @@ export const Page5 = () => {
           </div>
         </div>
       </Footer>
+
       <HR />
-      <h1 className="mb-4 text-4xl dark:text-white">Sitemap Links</h1>
+      <Heading message="Sitemap Links" />
       <Footer bgDark>
         <div className="w-full">
           <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">

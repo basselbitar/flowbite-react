@@ -23,5 +23,5 @@
     "noUncheckedSideEffectImports": true
   },
   "allowJs": true,
-  "include": ["src","routes", "pages"],
+  "include": ["src", "routes", "pages", "components"]
 }

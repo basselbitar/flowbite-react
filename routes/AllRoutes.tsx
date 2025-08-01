@@ -4,6 +4,7 @@ import { Page2 } from "../pages/Page2";
 import Page3 from "../pages/Page3";
 import { Page4 } from "../pages/Page4";
 import { Page5 } from "../pages/Page5";
+import { Page6 } from "../pages/Page6";
 
 export const AllRoutes = () => {
   return (
@@ -14,7 +15,7 @@ export const AllRoutes = () => {
         <Route path="page3" element={<Page3 />} />
         <Route path="page4" element={<Page4 />} />
         <Route path="page5" element={<Page5 />} />
-        {/* Add more routes as needed */}
+        <Route path="page6" element={<Page6 />} />
       </Routes>
     </>
   );
