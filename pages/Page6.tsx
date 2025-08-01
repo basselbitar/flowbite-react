@@ -2,6 +2,7 @@ import { BoxCard } from "../components/BoxCard";
 import { Heading } from "../components/Heading";
 import { MovieCard } from "../components/MovieCard";
 import { UnorderedList } from "../components/UnorderedList";
+import { Level1Component } from "../components/Level1Component";
 
 export const Page6 = () => {
   const names = ["Alice", "Bob", "Charlie", "David", "Eve"];
@@ -48,6 +49,9 @@ export const Page6 = () => {
           architecto?
         </p>
       </BoxCard>
+
+      <Heading message="Prop Drilling Exercise" />
+      <Level1Component arg1="Secret Message" />
     </>
   );
 };

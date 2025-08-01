@@ -1,8 +1,23 @@
 import { DarkThemeToggle } from "flowbite-react";
 import { AllRoutes } from "../routes/AllRoutes";
 import "./App.css";
+import { CiSun } from "react-icons/ci";
+import { BsMoonStarsFill } from "react-icons/bs";
 
 export default function App() {
+  // const MyDarkIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  //   <svg {...props} viewBox="0 0 24 24" fill="currentColor">
+  //     <BsSun />
+  //     <circle cx="12" cy="12" r="10" />
+  //   </svg>
+  // );
+
+  // const MyLightIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  //   <svg {...props} viewBox="0 0 24 24" fill="currentColor">
+  //     <BsMoonStarsFill />
+  //     <rect x="4" y="4" width="16" height="16" />
+  //   </svg>
+  // );
   // const CARDS = [
   //   {
   //     title: "Flowbite React Docs",
@@ -133,7 +148,7 @@ export default function App() {
         </div>
       </div> */}
       <div className="absolute top-4 right-4">
-        <DarkThemeToggle />
+        <DarkThemeToggle iconDark={CiSun} iconLight={BsMoonStarsFill} />
       </div>
 
       {/* <div className="relative flex w-full max-w-5xl flex-col items-center justify-center gap-12">
